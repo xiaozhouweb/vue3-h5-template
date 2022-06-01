@@ -15,7 +15,7 @@ const store = useStore()
     </p>
   </h2>
   <h2>{{ count }}</h2>
-  <van-button>{{ store.state.count }}</van-button>
+  <van-button color="blue" size="large">{{ store.state.count }}</van-button>
 </template>
  
 <style lang="scss" scoped>
