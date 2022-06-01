@@ -1,11 +1,10 @@
 
 <script setup lang="ts">
-import { ref } from 'vue'
 import { Button as VanButton } from 'vant'
 import { useStore } from '@/store'
 const msg = ref('Hello')
 const count = ref(710)
-
+msg.value = 'hello world!'
 const store = useStore()
 </script>
  
