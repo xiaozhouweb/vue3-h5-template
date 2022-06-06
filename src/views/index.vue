@@ -2,6 +2,7 @@
 <script setup lang="ts">
 import { Button as VanButton } from 'vant'
 import { useStore } from '@/store'
+import { ref } from 'vue';
 const msg = ref('Hello')
 const count = ref(710)
 msg.value = 'hello world!'
