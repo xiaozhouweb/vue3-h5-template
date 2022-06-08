@@ -1,4 +1,7 @@
 {
+  "vueCompilerOptions": {
+    "experimentalSuppressInvalidJsxElementTypeErrors": false
+  },
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

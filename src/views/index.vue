@@ -2,6 +2,7 @@
 <script setup lang="ts">
 import { Button as VanButton } from 'vant'
 import { useStore } from '@/store'
+import HelloWorld from '@/components/HelloWorld.vue';
 import { ref } from 'vue';
 const msg = ref('Hello')
 const count = ref(710)
@@ -10,6 +11,7 @@ const store = useStore()
 </script>
  
 <template>
+  <HelloWorld msg="1"/>
   <h2>
     <p>
       {{ msg }}
@@ -28,4 +30,4 @@ const store = useStore()
   width: 375px;
   height: 667px;
 }
-</style> 
+</style>
