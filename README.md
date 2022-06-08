@@ -5,7 +5,7 @@ npm install
 
 npm run dev
 
-### 用于创建vue h5 模板
+### 用于创建vue3 h5 模板
 
 技术栈
 
@@ -19,7 +19,7 @@ npm run dev
 
   **px自动转换vw**  ：  postcss.config.js配置
 
-- vant vite-plugin-style-import
+- **手机端vant** vite-plugin-style-import 自动导入
 
   自动导入 vant css
 
