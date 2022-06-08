@@ -1,4 +1,4 @@
-# vue-h5-template
+# vue3-h5-template
 ### 使用
 
 npm install
